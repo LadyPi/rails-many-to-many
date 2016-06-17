@@ -14,4 +14,5 @@ Actor.create([{first_name: "Johnny", last_name: "Depp"}, {first_name: "Angelina"
 
 Movie.create([{title: "Edward Scissorhands", description: "Wierd finger knives and haircuts.", year: "1990"}, {title: "Mr. and Mrs. Smith", description: "Crazy Couple.", year: "2005"}, {title: "Changeling", description: "Kidnapped Child.", year: "2008"}])
 
+Role.create({character:"Ed”, actor_id:variableName.id, movie_id:variableName.id})
 
